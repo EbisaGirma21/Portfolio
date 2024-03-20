@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import FacebookIcon from "../../../public/facebook-icon.svg";
+import InstagramIcon from "../../../public/instagram-icon.svg";
+import TwitterIcon from "../../../public/twitter-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -60,6 +63,15 @@ const EmailSection = () => {
           </Link>
           <Link href="https://www.linkedin.com/in/ebisa-girma-a941b0273/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/ebisa-girma-a941b0273/">
+            <Image src={FacebookIcon} alt="Facebook Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/ebisa-girma-a941b0273/">
+            <Image src={InstagramIcon} alt="Instagram Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/ebisa-girma-a941b0273/">
+            <Image src={TwitterIcon} alt="Twitter Icon" />
           </Link>
         </div>
       </div>
