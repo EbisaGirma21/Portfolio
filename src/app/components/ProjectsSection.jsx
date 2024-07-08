@@ -7,44 +7,49 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Portfolio Website",
+    description: "Portfolio Website with Next.js",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/EbisaGirma21/Portfolio",
+    previewUrl: "https://ebisagirma.netlify.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Marketplace Webapp",
+    description:
+      "Online Marketplace Platform with Next.js 14 and MongoDB by using Chapa payement processor",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Isayas7/market-place",
+    previewUrl: "https://market-place-wku.vercel.app",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Omnistock Application",
+    description:
+      "Multi-Store management for INSA with Node.js, Express.js and MongoDB",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/EbisaGirma21/OmniStock",
+    previewUrl: "https://github.com/EbisaGirma21/OmniStock",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Marketplace Mobile Application",
+    description:
+      "Marketplace Mobile Application with React Native and Node.js, Express.js and MongoDB",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://github.com/EbisaGirma21/Online_Marketplce_Platform_React_Native",
+    previewUrl:
+      "https://github.com/EbisaGirma21/Online_Marketplce_Platform_React_Native",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "School Management for Wolkite University Community School",
+    description: "Full of school operations WKU-CSMS-with Material-UI",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -52,12 +57,14 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Bus Reservation and Control System",
+    description: "Bus Reservation and Control System with PHP",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://github.com/EbisaGirma21/IP-Project-Bus-Station-Management-System",
+    previewUrl:
+      "https://github.com/EbisaGirma21/IP-Project-Bus-Station-Management-System",
   },
 ];
 
