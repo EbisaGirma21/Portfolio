@@ -47,6 +47,25 @@ const projectsData = [
       "https://github.com/EbisaGirma21/Online_Marketplce_Platform_React_Native",
   },
   {
+    id: 4,
+    title: "Movie Sreaming App for Arkwood ",
+    description:
+      "Arkwood Mobile Application with React Native and Pyhton Django",
+    image: "/images/projects/ark.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "#",
+    previewUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Music Sreaming App for Weedduu ",
+    description: "Weedduu Mobile Application with Flutter and Pyhton Django",
+    image: "/images/projects/wedd.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "#",
+    previewUrl: "#",
+  },
+  {
     id: 5,
     title: "School Management for Wolkite University Community School",
     description: "Full of school operations WKU-CSMS-with Material-UI",
@@ -65,6 +84,16 @@ const projectsData = [
       "https://github.com/EbisaGirma21/IP-Project-Bus-Station-Management-System",
     previewUrl:
       "https://github.com/EbisaGirma21/IP-Project-Bus-Station-Management-System",
+  },
+  {
+    id: 6,
+    title: "Web Application for Development for Peace Organization",
+    description:
+      "Web Application for Development for Peace Organization with Vite.js using React.js and Node.js",
+    image: "/images/projects/dpo.png",
+    tag: ["All", "Web"],
+    gitUrl: "#",
+    previewUrl: "https://devforpeace.org/",
   },
 ];
 
