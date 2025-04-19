@@ -9,14 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>Next.JS</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>Flutter</li>
-        <li>React Native</li>
         <li>JavaScript</li>
-        <li>PHP</li>
+        <li>React with Next.js & Vite.js</li>
+        <li>Node.js & Express.js</li>
+        <li>Python Django</li>
+        <li>PHP & Laravel</li>
+        <li>React Native</li>
+        <li>Flutter</li>
       </ul>
     ),
   },
@@ -60,13 +59,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications and Mobile application.
-            I have experience working with JavaScript, React, Redux, Node.js,
-            Express, Flutter React Native, PHP, Next.JS, HTML, CSS, and Git. I
-            am a quick learner and I am always looking to expand my knowledge
-            and skill set. I am a team player and I am excited to work with
-            others to create amazing applications.
+            I am a full-stack web and mobile application developer with a
+            passion for building interactive and responsive applications. I have
+            experience working with JavaScript, Next.js, React.js, Node.js,
+            Express, Python, Django, Flutter, React Native, PHP, Laravel, and
+            version control tools like Git and GitHub for efficient code
+            management and collaboration. I'm a quick learner who is always
+            eager to expand my knowledge and skill set. I'm also a strong team
+            player and excited to collaborate with others to create impactful
+            and innovative applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
